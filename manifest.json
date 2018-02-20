@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Facepalm",
+  "description": "This extension will remind you to look at your dev enviornment instead of production",
+  "version": "1.0",
+  "background": {
+      "page": "popup.html"
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs",
+    "windows"
+  ]
+}
